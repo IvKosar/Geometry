@@ -7,7 +7,7 @@ public class Circle extends Shape {
     }
 
     public Circle(double r, String c, boolean f){
-        this.radius = radius;
+        this.radius = r;
         this.setColor(c);
         this.setFilled(f);
     }
