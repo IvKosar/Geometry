@@ -42,6 +42,10 @@ public class Rectangle{
         return 2 * (length + width);
     }
     
+    public void draw(){
+        System.out.print("*"*length);
+    }
+    
     @Override
      public String toString() {
            return "Rectangle(" +
